@@ -1,0 +1,7 @@
+1-> How big is the data? [(df.shape)]
+2-> How does the data look like? [df.sample() or df.head()]
+3-> what is the data type of cols> [df.info()]
+4-> Are the any missing value? [df.isnull().sum()]
+5-> How does the data look mathematically? df.describe()
+6-> Are there Duplicate value? df.duplicated().sum()
+7-> How is the correlation between cols? df.corr()
